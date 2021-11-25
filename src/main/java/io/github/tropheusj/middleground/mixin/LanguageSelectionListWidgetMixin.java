@@ -12,7 +12,7 @@ import java.util.SortedSet;
 
 @Mixin(targets = "net.minecraft.client.gui.screen.option.LanguageOptionsScreen$LanguageSelectionListWidget")
 public class LanguageSelectionListWidgetMixin {
-	@Redirect(method = "<init>", at = @At(value = "INVOKE", target = "Ljava/util/SortedSet;iterator()Ljava/util/Iterator;"))
+	@Redirect(method = "Lnet/minecraft/client/gui/screen/option/LanguageOptionsScreen$LanguageSelectionListWidget;<init>(Lnet/minecraft/client/MinecraftClient;)V", at = @At(value = "INVOKE", target = "Ljava/util/SortedSet;iterator()Ljava/util/Iterator;"))
 	private Iterator redirectIteratorInLoop(SortedSet instance) {
 		Object[] arr = instance.toArray();
 		Middleground.shuffle(arr);
