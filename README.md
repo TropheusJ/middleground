@@ -1,10 +1,8 @@
-# Fabric Example Mod
+# Options menus.
+OptiFine is cluttered. Sodium is out of place. Let's meet in the middle!
 
-## Setup
+Featuring an All™ New™ menu style: now both cluttered  *and* out of place!
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the
-IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Admire the style! The sheer beauty of the design!
+![a beautiful example of the mod in action](demo1.png)
+![another example of the stylish design](demo2.png)
