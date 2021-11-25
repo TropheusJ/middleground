@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "middleground",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Middleground",
+  "description": "Options menus. OptiFine is cluttered. Sodium is out of place. Let's meet in the middle!",
   "authors": [
     "Tropheus Jay"
   ],
   "contact": {
-    "sources": "https://github.com/TropheusJ/fabric-example-mod"
+    "sources": "https://github.com/TropheusJ/middleground"
   },
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
-  "environment": "*",
+  "icon": "assets/middleground/icon.png",
+  "environment": "client",
   "entrypoints": {
     "main": [
-      "io.github.tropheusj.modid.ExampleMod"
+      "io.github.tropheusj.middleground.Middleground"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "middleground.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.11.6",

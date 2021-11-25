@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.tropheusj.middleground.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ControlsListWidgetMixin",
+    "LanguageOptionsScreenMixin",
+    "LanguageSelectionListWidgetMixin",
+    "ModifyBuild",
+    "ModifyButtonListOrder",
+    "ModifyButtonWidget",
+    "ModifyCyclingOption",
+    "ModifyInitFooter",
+    "ModifyTitleText",
+    "OptionsScreenMixin",
+    "PackListWidgetMixin",
+    "SoundOptionsScreenMixin",
+    "VideoOptionsScreenMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
